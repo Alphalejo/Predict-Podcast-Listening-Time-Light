@@ -1,0 +1,18 @@
+# Virtual environment folders and libraries
+podcast-prediction/
+venv/
+env/
+Lib/
+__pycache__/
+*.pyc
+
+# Temporary Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Other
+*.pkl
+*.csv
+.devcontainer/
+
+#leaving first dataframes
+!Data/raw/*.csv
