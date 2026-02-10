@@ -16,3 +16,4 @@ __pycache__/
 
 #leaving first dataframes
 !Data/raw/*.csv
+!App/ML-model/random_forest_model_encoded.pkl
