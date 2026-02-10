@@ -72,7 +72,7 @@ def predict(features):
     
     data = encode(features)
 
-    model = joblib.load('./ML-model/random_forest_model_encoded.pkl')   
+    model = joblib.load('./App/ML-model/random_forest_model_encoded.pkl')   
     
     input_data = pd.DataFrame([data])
 
